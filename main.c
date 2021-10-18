@@ -1,7 +1,7 @@
 /*
   Aluno:          | RA:
   ----------------+-----------------
-  MAtheus Bosco   | 2760482011034
+  Matheus Bosco   | 2760482011034
   Vinicius Solon  | 2760482011020
 
 
@@ -15,7 +15,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 
 void verify (int a, int b, int c);
@@ -43,7 +42,9 @@ int main(void) {
   printf("\n3o caso: %d < %d < %d\n", z, c, a+b);
 
   if( (x<a && a<(b+c)) && (y<b && b<(a+c)) && (z<c && c<(a+b)) ){
-    printf("\nValores inseridos compoem um triangulo!\nVerificando tipo...\n");
+    printf("\nValores inseridos compoem um triangulo!");
+    printf("\nValores dos lados: A = %d | B = %d | C = %d ", a , b , c);
+    printf("\nVerificando tipo...\n");
     verify(a, b, c);
   }
   else{printf("\nOs valores inseridos nao compoem um triangulo!");}
@@ -64,6 +65,6 @@ void verify (int a, int b, int c){
   else if( a==b && a==c && b==c ){
     printf("\nTriangulo Equilatero");   // Triangulo Equilatero - Lados e ângulos iguais
   }
-  printf("\nValores dos lados: A = %d | B = %d | C = %d ", a , b , c);
+  
   
 }
