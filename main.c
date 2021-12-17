@@ -1,18 +1,3 @@
-/*
-  Aluno:          | RA:
-  ----------------+-----------------
-  Matheus Bosco   | 2760482011034
-  Vinicius Solon  | 2760482011020
-
-
-                  *
-                *   *
-              *       *
-            *           *
-          * * * * * * * * *
-
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
